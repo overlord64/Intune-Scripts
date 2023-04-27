@@ -3,7 +3,7 @@ Add-Type -AssemblyName 'System.Web'
 $username = "youradminuserhere"
 $user = Get-LocalUser -Name $username -ErrorAction SilentlyContinue
 $userParams = @{
-    Name = 'clientadmin'
+    Name = 'youradminuserhere'
     Description = 'LAPS Client Admin'
     Password = [System.Web.Security.Membership]::GeneratePassword(16, 0) | ConvertTo-SecureString -AsPlainText -Force
 }
