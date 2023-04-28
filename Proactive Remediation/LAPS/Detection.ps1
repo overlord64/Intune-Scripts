@@ -13,7 +13,7 @@ If($userEnabled)
 }
 else
 {
-	Write-Ouput "Error with user"
+	Write-Output "Error with user"
 	exit 1
 }
    
