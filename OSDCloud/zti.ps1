@@ -7,9 +7,7 @@ $GroupTag = "YourGroupTagHere" #replace with whatever group tag you want
 $TimeServerUrl = "time.google.com"
 $AssignedUser = ""
 ##$OutputFile = "X:\AutopilotHash.csv"
-##$TenantID = [Environment]::GetEnvironmentVariable('OSDCloudAPTenantID','Machine') # $env:OSDCloudAPTenantID doesn't work within WinPe
-##$AppID = [Environment]::GetEnvironmentVariable('OSDCloudAPAppID','Machine')
-##$AppSecret = [Environment]::GetEnvironmentVariable('OSDCloudAPAppSecret','Machine')
+
 $uri ="https://yourazureautomationwebookurl" #your webhook url here
 
 #Set Global OSDCloud Vars
