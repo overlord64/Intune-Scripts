@@ -17,7 +17,7 @@ $TenantID = Get-AutomationVariable -Name 'TenantID'
 $ApplicationID = Get-AutomationVariable -Name 'Intune-Client-Id'
 $AppSecret = Get-AutomationVariable -Name 'Intune-Client-Secret'
 
-$WebhookPassword = Get-AutomationVariable -Name 'AutopilotWebhookPassword'
+#$WebhookPassword = Get-AutomationVariable -Name 'AutopilotWebhookPassword'
 
 ##############################
 ## Functions
